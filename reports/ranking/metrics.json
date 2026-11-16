@@ -1,0 +1,115 @@
+{
+  "retriever": "hybrid",
+  "selected": "base",
+  "best_iteration": 74,
+  "val": {
+    "ordem do hybrid": {
+      "ndcg@10": 0.7584,
+      "condensed_ndcg@10": 0.827,
+      "mrr@10": 0.5432,
+      "recall@100": 0.6766,
+      "judged@10": 0.8792
+    },
+    "base": {
+      "ndcg@10": 0.786,
+      "condensed_ndcg@10": 0.8324,
+      "mrr@10": 0.593,
+      "recall@100": 0.6766,
+      "judged@10": 0.9135
+    },
+    "base sem retrieval": {
+      "ndcg@10": 0.7649,
+      "condensed_ndcg@10": 0.8087,
+      "mrr@10": 0.5518,
+      "recall@100": 0.6766,
+      "judged@10": 0.9104
+    },
+    "base sem text": {
+      "ndcg@10": 0.7677,
+      "condensed_ndcg@10": 0.8328,
+      "mrr@10": 0.5869,
+      "recall@100": 0.6766,
+      "judged@10": 0.8812
+    },
+    "base sem attributes": {
+      "ndcg@10": 0.7783,
+      "condensed_ndcg@10": 0.824,
+      "mrr@10": 0.5827,
+      "recall@100": 0.6766,
+      "judged@10": 0.9156
+    },
+    "base sem numeric": {
+      "ndcg@10": 0.7783,
+      "condensed_ndcg@10": 0.8274,
+      "mrr@10": 0.5708,
+      "recall@100": 0.6766,
+      "judged@10": 0.9042
+    }
+  },
+  "train": {
+    "ndcg@10": 0.8734,
+    "condensed_ndcg@10": 0.8953,
+    "mrr@10": 0.6883,
+    "recall@100": 0.6712,
+    "judged@10": 0.9401
+  },
+  "ndcg@10_vs_base": {
+    "base sem retrieval": {
+      "diff": -0.0211,
+      "ci95": [
+        -0.0508,
+        0.0087
+      ]
+    },
+    "base sem text": {
+      "diff": -0.0183,
+      "ci95": [
+        -0.035,
+        -0.0028
+      ]
+    },
+    "base sem attributes": {
+      "diff": -0.0077,
+      "ci95": [
+        -0.0186,
+        0.0019
+      ]
+    },
+    "base sem numeric": {
+      "diff": -0.0078,
+      "ci95": [
+        -0.0192,
+        0.0043
+      ]
+    }
+  },
+  "error_analysis": {
+    "oracle_ndcg@10": 0.9436,
+    "loss_share_retrieval": 0.263,
+    "loss_share_ranking": 0.737,
+    "worst_queries_failure": {
+      "retrieval": 6,
+      "no_exact_label": 4,
+      "ranking": 1
+    }
+  },
+  "importance": {
+    "retrieval_rank": 6525.2,
+    "name_overlap": 2292.7,
+    "bm25": 829.5,
+    "bm25_rank": 764.7,
+    "cosine": 467.4,
+    "log_desc_len": 442.7,
+    "dense_rank": 349.6,
+    "attr_overlap": 326.9,
+    "n_attributes": 263.5,
+    "category_overlap": 254.8,
+    "log_rating_count": 177.5,
+    "class_overlap": 176.5,
+    "number_match": 170.4,
+    "log_review_count": 158.9,
+    "query_len": 122.6,
+    "query_in_name": 93.8,
+    "average_rating": 56.7
+  }
+}

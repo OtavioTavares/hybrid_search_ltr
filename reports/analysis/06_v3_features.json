@@ -1,0 +1,152 @@
+{
+  "n_queries": 383,
+  "variants": {
+    "v1": {
+      "ndcg@10": 0.7971,
+      "condensed_ndcg@10": 0.8438,
+      "mrr@10": 0.5864,
+      "recall@100": 0.6726,
+      "judged@10": 0.9133,
+      "ndcg@10_vs_v1": {
+        "diff": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "condensed_vs_v1": {
+        "diff": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "v1 + palavras desconhecidas (oov_share)": {
+      "ndcg@10": 0.7962,
+      "condensed_ndcg@10": 0.8452,
+      "mrr@10": 0.5948,
+      "recall@100": 0.6726,
+      "judged@10": 0.9107,
+      "ndcg@10_vs_v1": {
+        "diff": -0.0008,
+        "ci95": [
+          -0.0044,
+          0.0026
+        ]
+      },
+      "condensed_vs_v1": {
+        "diff": 0.0013,
+        "ci95": [
+          -0.0012,
+          0.0037
+        ]
+      }
+    },
+    "v1 com query_in_name por palavra inteira": {
+      "ndcg@10": 0.7955,
+      "condensed_ndcg@10": 0.8424,
+      "mrr@10": 0.5776,
+      "recall@100": 0.6726,
+      "judged@10": 0.9123,
+      "ndcg@10_vs_v1": {
+        "diff": -0.0016,
+        "ci95": [
+          -0.0052,
+          0.0019
+        ]
+      },
+      "condensed_vs_v1": {
+        "diff": -0.0014,
+        "ci95": [
+          -0.0039,
+          0.001
+        ]
+      }
+    },
+    "v1 com overlaps pesados por IDF": {
+      "ndcg@10": 0.7879,
+      "condensed_ndcg@10": 0.8423,
+      "mrr@10": 0.5815,
+      "recall@100": 0.6726,
+      "judged@10": 0.9003,
+      "ndcg@10_vs_v1": {
+        "diff": -0.0092,
+        "ci95": [
+          -0.0158,
+          -0.0032
+        ]
+      },
+      "condensed_vs_v1": {
+        "diff": -0.0016,
+        "ci95": [
+          -0.0051,
+          0.0021
+        ]
+      }
+    },
+    "v1 com nota média bayesiana": {
+      "ndcg@10": 0.797,
+      "condensed_ndcg@10": 0.8453,
+      "mrr@10": 0.5866,
+      "recall@100": 0.6726,
+      "judged@10": 0.912,
+      "ndcg@10_vs_v1": {
+        "diff": -0.0001,
+        "ci95": [
+          -0.0039,
+          0.0035
+        ]
+      },
+      "condensed_vs_v1": {
+        "diff": 0.0015,
+        "ci95": [
+          -0.0011,
+          0.0042
+        ]
+      }
+    },
+    "v1 com atributos só descritivos": {
+      "ndcg@10": 0.7967,
+      "condensed_ndcg@10": 0.8426,
+      "mrr@10": 0.5813,
+      "recall@100": 0.6726,
+      "judged@10": 0.9151,
+      "ndcg@10_vs_v1": {
+        "diff": -0.0004,
+        "ci95": [
+          -0.0041,
+          0.0035
+        ]
+      },
+      "condensed_vs_v1": {
+        "diff": -0.0013,
+        "ci95": [
+          -0.0041,
+          0.0014
+        ]
+      }
+    },
+    "v3 (todas as correções + oov_share)": {
+      "ndcg@10": 0.7868,
+      "condensed_ndcg@10": 0.8432,
+      "mrr@10": 0.5887,
+      "recall@100": 0.6726,
+      "judged@10": 0.9005,
+      "ndcg@10_vs_v1": {
+        "diff": -0.0103,
+        "ci95": [
+          -0.0167,
+          -0.0043
+        ]
+      },
+      "condensed_vs_v1": {
+        "diff": -0.0006,
+        "ci95": [
+          -0.0049,
+          0.0036
+        ]
+      }
+    }
+  }
+}

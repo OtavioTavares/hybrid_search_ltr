@@ -1,0 +1,57 @@
+{
+  "n_queries": 96,
+  "test": {
+    "bm25": {
+      "ndcg@10": 0.6936,
+      "condensed_ndcg@10": 0.7947,
+      "mrr@10": 0.5779,
+      "recall@100": 0.6094,
+      "judged@10": 0.8365
+    },
+    "hybrid": {
+      "ndcg@10": 0.7282,
+      "condensed_ndcg@10": 0.8141,
+      "mrr@10": 0.578,
+      "recall@100": 0.6053,
+      "judged@10": 0.8615
+    },
+    "hybrid + LTR": {
+      "ndcg@10": 0.7637,
+      "condensed_ndcg@10": 0.8125,
+      "mrr@10": 0.5798,
+      "recall@100": 0.6053,
+      "judged@10": 0.9208
+    }
+  },
+  "bootstrap": {
+    "hybrid vs bm25, recall@100": {
+      "diff": -0.0041,
+      "ci95": [
+        -0.0305,
+        0.0206
+      ]
+    },
+    "LTR vs hybrid, ndcg@10": {
+      "diff": 0.0356,
+      "ci95": [
+        0.0092,
+        0.0642
+      ]
+    },
+    "LTR vs hybrid, condensed_ndcg@10": {
+      "diff": -0.0016,
+      "ci95": [
+        -0.0181,
+        0.0143
+      ]
+    }
+  },
+  "environment": {
+    "python": "3.12.7",
+    "lightgbm": "4.7.0",
+    "sklearn": "1.9.1",
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "seed": 42
+  }
+}

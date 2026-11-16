@@ -1,0 +1,51 @@
+[project]
+name = "product-search"
+version = "0.1.0"
+description = "Busca e ranking de produtos no WANDS: retrieval híbrido + LambdaMART"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy>=2.2",
+    "pandas>=2.2",
+    "scipy>=1.15",
+    "scikit-learn>=1.7",
+    "lightgbm>=4.7",
+    "sentence-transformers>=6.2",
+    "torch>=2.13",
+]
+
+[project.scripts]
+split-queries = "product_search.pipeline.split:main"
+build-index = "product_search.pipeline.build_index:main"
+eval-retrieval = "product_search.pipeline.eval_retrieval:main"
+train-ranker = "product_search.pipeline.train_ranker:main"
+eval-test = "product_search.pipeline.eval_test:main"
+benchmark = "product_search.pipeline.benchmark:main"
+search = "product_search.pipeline.search:main"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "nbconvert>=7.17.2",
+    "nbformat>=5.11.1",
+    "pytest>=9.1",
+    "ruff>=0.14",
+    "seaborn>=0.13.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.9,<0.10"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-root = ""
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 130
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

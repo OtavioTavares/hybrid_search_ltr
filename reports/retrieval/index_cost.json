@@ -1,0 +1,13 @@
+{
+  "n_products": 42994,
+  "bm25": {
+    "seconds": 2.0,
+    "ms_per_product": 0.05,
+    "mb": 20.0
+  },
+  "embeddings": {
+    "seconds": 170.2,
+    "ms_per_product": 3.96,
+    "mb": 66.0
+  }
+}

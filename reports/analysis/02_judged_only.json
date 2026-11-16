@@ -1,0 +1,30 @@
+{
+  "todos os candidatos (final)": {
+    "ndcg@10": 0.786,
+    "condensed_ndcg@10": 0.8324,
+    "mrr@10": 0.593,
+    "recall@100": 0.6766,
+    "judged@10": 0.9135
+  },
+  "só julgados": {
+    "ndcg@10": 0.7298,
+    "condensed_ndcg@10": 0.8358,
+    "mrr@10": 0.5565,
+    "recall@100": 0.6766,
+    "judged@10": 0.825
+  },
+  "ndcg@10_vs_final": {
+    "diff": -0.0562,
+    "ci95": [
+      -0.0854,
+      -0.0295
+    ]
+  },
+  "condensed_vs_final": {
+    "diff": 0.0034,
+    "ci95": [
+      -0.0109,
+      0.0177
+    ]
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "encode_latency": {
+    "MiniLM": {
+      "p50_ms": 6.3,
+      "p95_ms": 6.9
+    },
+    "bge-small": {
+      "p50_ms": 12.7,
+      "p95_ms": 14.8
+    }
+  },
+  "retrieval": {
+    "train": {
+      "MiniLM, texto curto (atual) / dense": {
+        "recall@100": 0.5944,
+        "ndcg@10": 0.7029,
+        "recall@100_vs_atual": {
+          "diff": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "ndcg@10_vs_atual": {
+          "diff": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "MiniLM, texto curto (atual) / hybrid": {
+        "recall@100": 0.6712,
+        "ndcg@10": 0.775,
+        "recall@100_vs_atual": {
+          "diff": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "ndcg@10_vs_atual": {
+          "diff": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "bge-small, texto curto / dense": {
+        "recall@100": 0.6329,
+        "ndcg@10": 0.7384,
+        "recall@100_vs_atual": {
+          "diff": 0.0385,
+          "ci95": [
+            0.0166,
+            0.0616
+          ]
+        },
+        "ndcg@10_vs_atual": {
+          "diff": 0.0356,
+          "ci95": [
+            0.0135,
+            0.0578
+          ]
+        }
+      },
+      "bge-small, texto curto / hybrid": {
+        "recall@100": 0.6808,
+        "ndcg@10": 0.7769,
+        "recall@100_vs_atual": {
+          "diff": 0.0096,
+          "ci95": [
+            -0.0041,
+            0.0243
+          ]
+        },
+        "ndcg@10_vs_atual": {
+          "diff": 0.0019,
+          "ci95": [
+            -0.011,
+            0.0145
+          ]
+        }
+      },
+      "bge-small, texto longo / dense": {
+        "recall@100": 0.6682,
+        "ndcg@10": 0.766,
+        "recall@100_vs_atual": {
+          "diff": 0.0738,
+          "ci95": [
+            0.0454,
+            0.1027
+          ]
+        },
+        "ndcg@10_vs_atual": {
+          "diff": 0.0631,
+          "ci95": [
+            0.0398,
+            0.0869
+          ]
+        }
+      },
+      "bge-small, texto longo / hybrid": {
+        "recall@100": 0.6904,
+        "ndcg@10": 0.7798,
+        "recall@100_vs_atual": {
+          "diff": 0.0191,
+          "ci95": [
+            -0.0004,
+            0.0371
+          ]
+        },
+        "ndcg@10_vs_atual": {
+          "diff": 0.0048,
+          "ci95": [
+            -0.0096,
+            0.0185
+          ]
+        }
+      }
+    },
+    "val": {
+      "MiniLM, texto curto (atual) / dense": {
+        "recall@100": 0.5892,
+        "ndcg@10": 0.6918,
+        "recall@100_vs_atual": {
+          "diff": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "ndcg@10_vs_atual": {
+          "diff": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "MiniLM, texto curto (atual) / hybrid": {
+        "recall@100": 0.6766,
+        "ndcg@10": 0.7584,
+        "recall@100_vs_atual": {
+          "diff": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        },
+        "ndcg@10_vs_atual": {
+          "diff": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "bge-small, texto curto / dense": {
+        "recall@100": 0.6334,
+        "ndcg@10": 0.7066,
+        "recall@100_vs_atual": {
+          "diff": 0.0442,
+          "ci95": [
+            0.0016,
+            0.0939
+          ]
+        },
+        "ndcg@10_vs_atual": {
+          "diff": 0.0148,
+          "ci95": [
+            -0.0183,
+            0.045
+          ]
+        }
+      },
+      "bge-small, texto curto / hybrid": {
+        "recall@100": 0.6793,
+        "ndcg@10": 0.7612,
+        "recall@100_vs_atual": {
+          "diff": 0.0027,
+          "ci95": [
+            -0.0198,
+            0.0251
+          ]
+        },
+        "ndcg@10_vs_atual": {
+          "diff": 0.0028,
+          "ci95": [
+            -0.0189,
+            0.0268
+          ]
+        }
+      },
+      "bge-small, texto longo / dense": {
+        "recall@100": 0.6599,
+        "ndcg@10": 0.7345,
+        "recall@100_vs_atual": {
+          "diff": 0.0707,
+          "ci95": [
+            0.0238,
+            0.1237
+          ]
+        },
+        "ndcg@10_vs_atual": {
+          "diff": 0.0427,
+          "ci95": [
+            0.0038,
+            0.0798
+          ]
+        }
+      },
+      "bge-small, texto longo / hybrid": {
+        "recall@100": 0.6906,
+        "ndcg@10": 0.7557,
+        "recall@100_vs_atual": {
+          "diff": 0.0141,
+          "ci95": [
+            -0.0022,
+            0.0337
+          ]
+        },
+        "ndcg@10_vs_atual": {
+          "diff": -0.0027,
+          "ci95": [
+            -0.028,
+            0.022
+          ]
+        }
+      }
+    }
+  },
+  "ltr": {
+    "MiniLM, texto curto (atual)": {
+      "cv_ndcg@10": 0.7976,
+      "cv_vs_atual": {
+        "diff": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "cv_condensed_vs_atual": {
+        "diff": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "val_ndcg@10": 0.7863,
+      "val_vs_atual": {
+        "diff": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "bge-small, texto curto": {
+      "cv_ndcg@10": 0.7939,
+      "cv_vs_atual": {
+        "diff": -0.0037,
+        "ci95": [
+          -0.0127,
+          0.0053
+        ]
+      },
+      "cv_condensed_vs_atual": {
+        "diff": -0.005,
+        "ci95": [
+          -0.0125,
+          0.0022
+        ]
+      },
+      "val_ndcg@10": 0.782,
+      "val_vs_atual": {
+        "diff": -0.0043,
+        "ci95": [
+          -0.0231,
+          0.0149
+        ]
+      }
+    },
+    "bge-small, texto longo": {
+      "cv_ndcg@10": 0.805,
+      "cv_vs_atual": {
+        "diff": 0.0073,
+        "ci95": [
+          -0.0014,
+          0.0156
+        ]
+      },
+      "cv_condensed_vs_atual": {
+        "diff": 0.0099,
+        "ci95": [
+          0.002,
+          0.0184
+        ]
+      },
+      "val_ndcg@10": 0.8,
+      "val_vs_atual": {
+        "diff": 0.0136,
+        "ci95": [
+          -0.0034,
+          0.0328
+        ]
+      }
+    }
+  }
+}

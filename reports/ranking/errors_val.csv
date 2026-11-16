@@ -1,0 +1,97 @@
+query_id,query,n_exact,oracle_ndcg@10,top3_classes,ndcg@10,condensed_ndcg@10,mrr@10,recall@100,judged@10,failure
+222,small loving roomtables,31,0.0, | Garden Statues | Planters,0.0,0.0,0.0,0.0,0.0,retrieval
+383,minnestrista,0,0.0, | Bars & Bar Sets | Dining Table Sets,0.0,0.0,0.0,,0.0,no_exact_label
+173,bedroom accessories,4,0.639,Bed Accessories | Bed Accessories | Bed Accessories,0.089,0.271,0.0,0.0,0.3,retrieval
+142,kitchen wooden stand,5,0.418,Plant & Telephone Tables | Plant & Telephone Tables | Kitchen Islands,0.147,0.21,0.111,0.2,0.5,retrieval
+427,lowes tile,0,1.0,Floor & Wall Tile | Floor & Wall Tile | Floor & Wall Tile,0.152,1.0,0.0,,0.2,no_exact_label
+218,wand bunk beds,0,1.0,Kids Beds | Kids Beds | Kids Beds,0.227,1.0,0.0,,0.3,no_exact_label
+460,small wardrobe grey,7,0.678,Armoires & Wardrobes | Armoires & Wardrobes | Coat Racks and Hooks,0.312,0.442,0.0,0.143,0.7,retrieval
+449,living room designs,164,1.0, |  | Living Room Sets,0.318,1.0,0.333,0.189,0.4,retrieval
+386,alter furniture,0,0.727,Accent Chests / Cabinets | Bedding Sets | Outdoor Conversation Sets,0.396,0.603,0.0,,0.7,no_exact_label
+223,wisdom stone river 3-3/4,1,0.642,Cabinet and Drawer Pulls | Wall Art | Coasters & Trivets,0.413,0.421,1.0,1.0,0.7,ranking
+389,brush nickel faucet bathroom,157,1.0,Shower Faucets & Systems | Shower Faucets & Systems | Bathroom Sink Faucets,0.463,0.804,0.333,0.153,0.7,retrieval
+130,entertainment console,187,1.0,TV Stands & Entertainment Centers | TV Stands & Entertainment Centers | TV Stands & Entertainment Centers,0.516,0.516,0.333,0.123,1.0,retrieval
+129,wainscoting ideas,28,1.0,Molding & Millwork | Wall Art | Wall Paneling,0.517,0.649,1.0,0.75,0.8,ranking
+331,upholstered girls bed,52,0.9,Beds |  | Beds,0.531,0.692,1.0,0.135,0.7,retrieval
+481,emma headboard,1,0.82, | Headboards | Headboards,0.579,0.639,0.0,0.0,0.9,retrieval
+169,coffee bar buffet,27,1.0,Mugs & Teacups | Bars & Bar Sets | Restaurant Table Bases,0.581,0.682,0.5,0.407,0.8,ranking
+162,turquoise chair,23,0.679, | Office Chairs | Adirondack Chairs,0.595,0.595,1.0,0.087,1.0,retrieval
+190,benjiamino faux leather power lift chair,5,0.74, | Recliners | Recliners,0.606,0.606,0.0,0.2,1.0,retrieval
+4,chair and a half recliner,23,0.782,Recliners | Recliners | Accent Chairs,0.61,0.61,1.0,0.174,1.0,retrieval
+71,infant girl crib bedding,47,1.0,Crib Bedding Sets | Crib Bedding Sets | Crib Bedding Sets,0.65,0.65,0.2,0.894,1.0,ranking
+42,toddler couch fold out,3,1.0,Kids Chairs | Sofa & Console Tables | Kids Chairs,0.655,0.806,0.25,1.0,0.8,ranking
+68,nautical platters,89,1.0,Serving Dishes & Platters | Serving Dishes & Platters | Serving Dishes & Platters,0.655,0.655,0.25,0.663,1.0,ranking
+183,farmhouse bread box,6,1.0, |  | Food Storage & Dispensers,0.676,0.676,0.25,1.0,1.0,ranking
+22,light and navy blue decorative pillow,22,0.864,Accent Pillows | Accent Pillows | Accent Pillows,0.681,0.681,1.0,0.273,1.0,retrieval
+94,kohler whitehaven farmhouse kitchen sink,4,1.0,Kitchen Sinks | Kitchen Sinks | Kitchen Sinks,0.7,0.7,0.25,1.0,1.0,ranking
+293,wood floor protector mat,13,1.0,Chairmats | Chairmats | Chairmats,0.707,0.707,0.333,1.0,1.0,ranking
+65,gnome fairy garden,38,1.0,Garden Accents | Garden Accents | Garden Accents,0.714,0.714,1.0,0.711,1.0,ranking
+365,gas detector,9,1.0,Smoke & CO Detectors | Grill Parts | ,0.716,0.716,1.0,1.0,1.0,ranking
+178,almost heaven sauna,24,1.0,Saunas | Saunas | Saunas,0.723,0.723,0.25,1.0,1.0,ranking
+91,industrial pipe dining  table,8,0.963,Dining Tables | Dining Tables | Dining Tables,0.729,0.729,1.0,0.875,1.0,ranking
+287,cover set for outdoor furniture,45,1.0,Furniture Covers | Furniture Covers | Furniture Covers,0.732,0.732,0.25,0.978,1.0,ranking
+81,orren ellis l shape desk,75,1.0,Desks | Desks | Desks,0.733,0.733,1.0,0.44,1.0,ranking
+117,tall storage cabinet,128,1.0, | Bathroom Storage | Office Storage Cabinets,0.765,0.765,1.0,0.188,1.0,retrieval
+225,white splashproof shiplap wallpaper,2,1.0,Wallpaper | Wallpaper | Wallpaper,0.768,0.817,0.333,1.0,0.9,ranking
+213,kraus kitchen sink faucet oletto kpf 2820 sfs,1,1.0,Kitchen Faucets | Kitchen Sinks | Kitchen Faucets,0.776,0.776,0.25,1.0,1.0,ranking
+308,led 60,2,1.0,Light Bulbs | Light Bulbs | Light Bulbs,0.799,0.799,0.2,1.0,1.0,ranking
+44,chrome shower head and valve,33,1.0,Fixture Parts And Components | Shower Faucets & Systems | Shower Faucets & Systems,0.801,0.801,1.0,0.545,1.0,ranking
+147,drum picture,12,1.0,Wall Art | Wall Art | Wall Art,0.801,0.801,1.0,0.917,1.0,ranking
+104,flour and sugar containers,12,0.9,Food Storage & Dispensers | Food Storage & Dispensers | Canisters & Jars,0.804,0.804,1.0,0.583,1.0,ranking
+394,gray leather cocktail table,0,1.0,Coffee & Cocktail Tables | Coffee & Cocktail Tables | Dining Chairs,0.812,0.812,0.0,,1.0,no_exact_label
+125,boho bed frame,1,1.0,Beds | Bed Frames|Beds | Bed Frames|Beds,0.816,0.816,1.0,1.0,1.0,ranking
+456,wall design shelf,76,1.0,Wall Mounted Shelves | Wall Mounted Shelves | Wall Mounted Shelves,0.817,0.817,1.0,0.513,1.0,ranking
+271,chinese flower stand,1,1.0,Planter Accessories | Plant & Telephone Tables | ,0.82,0.82,0.0,1.0,1.0,ranking
+318,sunjoy lantern,1,1.0,Outdoor Lanterns & Lamps | Outdoor Lanterns & Lamps | Outdoor Lanterns & Lamps,0.82,0.82,0.0,1.0,1.0,ranking
+124,unique coffee tables,324,1.0,Coffee & Cocktail Tables | Coffee & Cocktail Tables | Coffee & Cocktail Tables,0.821,0.821,1.0,0.093,1.0,retrieval
+275,hinged square ottoman,13,1.0,Ottomans|Coffee & Cocktail Tables | Ottomans | Ottomans,0.823,0.823,0.5,0.923,1.0,ranking
+40,elegant executive chair,40,1.0,Office Chairs | Office Chairs | Office Chairs,0.83,0.83,1.0,0.75,1.0,ranking
+120,zodiac pillow,33,1.0,Accent Pillows | Accent Pillows | Accent Pillows,0.835,0.835,0.5,1.0,1.0,ranking
+467,town & country living curtains,0,1.0,Curtains & Drapes | Curtains & Drapes | Curtains & Drapes,0.839,1.0,0.0,,0.8,no_exact_label
+372,verden callan,1,1.0,Bedding Sets | Futons | Table Lamps,0.84,0.84,1.0,1.0,1.0,ranking
+284,family lamp,0,1.0,Table Lamps | Table Lamps | Table Lamps,0.861,1.0,0.0,,0.9,no_exact_label
+14,beds that have leds,20,1.0,Beds | Beds | Bed Accessories,0.863,0.863,1.0,0.8,1.0,ranking
+273,stainless steel free standing shower caddy,4,0.939,Shower & Tub Accessories | Shower & Tub Accessories | Shower & Tub Accessories,0.869,0.869,1.0,0.75,1.0,ranking
+436,full bed with trundle,46,1.0, | Kids Beds | Kids Beds,0.887,0.963,1.0,0.609,0.9,ranking
+385,mom urn,0,1.0,"Vases, Urns, Jars, & Bottles | Vases, Urns, Jars, & Bottles | Vases, Urns, Jars, & Bottles",0.89,0.89,0.0,,1.0,no_exact_label
+41,closet pull out valet rod,19,1.0, | Closet Storage & Organization | ,0.892,0.892,1.0,0.947,1.0,ranking
+15,black 5 drawer dresser by guilford,2,0.898,Kids Dressers & Chests|Dressers & Chests | Kids Dressers & Chests|Dressers & Chests | Dressers & Chests,0.898,0.898,1.0,0.5,1.0,ranking
+316,rolande heavy duty power lift assist recliner,1,1.0,Recliners | Recliners | Recliners,0.933,0.933,0.5,1.0,1.0,ranking
+373,togo chair,0,1.0,Accent Chairs | Dining Chairs | Office Chairs,0.934,1.0,0.0,,0.9,no_exact_label
+451,aiden black velvet bed,0,1.0,Beds | Beds | Beds,0.934,0.934,0.0,,1.0,no_exact_label
+230,gold,228,1.0,Plant & Telephone Tables | Wall Décor | Area Rugs,0.936,1.0,1.0,0.311,0.9,ranking
+232,storage dresser,423,1.0,Dressers & Chests | Dressers & Chests | Storage Drawers,0.945,0.945,1.0,0.194,1.0,retrieval
+413,burruss patio sectional with cushions,1,1.0,Patio Sofas|Outdoor Conversation Sets |  | Patio Sofas,0.948,1.0,1.0,1.0,0.9,ranking
+469,garage sports storage rack,64,1.0,Bike And Sport Racks | Bike And Sport Racks | Bike And Sport Racks,0.961,0.961,1.0,0.938,1.0,ranking
+279,marlon tufted queen bed,1,1.0,Beds | Beds | Beds,1.0,1.0,1.0,1.0,1.0,ranking
+274,gowdy height adjustable standing desk,1,1.0,Desks | Desks | Desks,1.0,1.0,1.0,1.0,1.0,ranking
+234,artificial orchid arrangement,107,1.0,Faux Florals | Faux Florals | Faux Florals,1.0,1.0,1.0,0.794,1.0,ranking
+252,accent chairs living room,100,1.0,Accent Chairs | Accent Chairs | Accent Chairs,1.0,1.0,1.0,0.21,1.0,retrieval
+148,industrial,194,1.0,End Tables | Dining Tables | Wall & Accent Mirrors,1.0,1.0,1.0,0.345,1.0,ranking
+170,zen,99,1.0,Wall Art | Fountains | Fountains,1.0,1.0,1.0,0.889,1.0,ranking
+176,mexican art,23,1.0,Wall Art | Wall Art | Wall Art,1.0,1.0,1.0,1.0,1.0,ranking
+208,"fawkes 36"" blue vanity",0,1.0,Vanities | Vanities | Vanities,1.0,1.0,0.0,,1.0,no_exact_label
+133,outdoor light fixtures,170,1.0,Outdoor Wall Lights | Outdoor Wall Lights | Outdoor Wall Lights,1.0,1.0,1.0,0.382,1.0,ranking
+110,mila task chair,0,1.0,Teen Desk Chairs|Office Chairs |  | Office Chairs,1.0,1.0,0.0,,1.0,no_exact_label
+108,ayesha curry kitchen,81,1.0,Kitchen Aprons | Baking Dishes | Skillets & Fry Pans,1.0,1.0,1.0,0.938,1.0,ranking
+102,flamingo,57,1.0,Decorative Objects | Wall Art | Decorative Objects,1.0,1.0,1.0,1.0,1.0,ranking
+116,brockham solid blackout thermal grommet curtain panels,0,1.0,Curtains & Drapes | Curtains & Drapes | ,1.0,1.0,0.0,,1.0,no_exact_label
+115,peacock,202,1.0,Decorative Objects | Wall Plates | Decorative Objects,1.0,1.0,1.0,0.49,1.0,ranking
+112,pineapple,266,1.0, | Decorative Objects | Decorative Objects,1.0,1.0,1.0,0.372,1.0,ranking
+127,wine bar,159,1.0,Bars & Bar Sets |  | Bars & Bar Sets,1.0,1.0,1.0,0.509,1.0,ranking
+111,delta trinsic,69,1.0,Fixture Parts And Components | Fixture Parts And Components | Fixture Parts And Components,1.0,1.0,1.0,0.957,1.0,ranking
+6,acrylic clear chair,43,1.0,Dining Chairs | Dining Chairs | Dining Chairs,1.0,1.0,1.0,0.372,1.0,ranking
+18,chrome bathroom 4 light vanity light,34,1.0, | Vanity Lighting | ,1.0,1.0,1.0,0.882,1.0,ranking
+38,calvin patio chair,1,1.0,Patio Lounge Chairs | Patio Lounge Chairs | Patio Lounge Chairs,1.0,1.0,1.0,1.0,1.0,ranking
+11,ombre rug,65,1.0,Area Rugs | Area Rugs | Area Rugs,1.0,1.0,1.0,1.0,1.0,ranking
+99,arched christmas tree,0,1.0,Christmas Trees | Christmas Trees | Christmas Trees,1.0,1.0,0.0,,1.0,no_exact_label
+319,landis wall mounted bathroom shelves,1,1.0,Bathroom Storage | Bathroom Storage | Wall Mounted Shelves,1.0,1.0,1.0,1.0,1.0,ranking
+361,kisner,25,1.0,Sideboards & Buffets | Area Rugs | Vanity Lighting,1.0,1.0,1.0,1.0,1.0,ranking
+362,brushed gold wall decor,0,1.0,Wall Décor | Wall Décor | Wall Décor,1.0,1.0,0.0,,1.0,no_exact_label
+321,hussain handmade tufted magenta rug,1,1.0,Area Rugs | Area Rugs | Area Rugs,1.0,1.0,1.0,1.0,1.0,ranking
+351,white bathroom vanity black hardware,0,1.0,Vanity Bases | Vanities | Vanities,1.0,1.0,0.0,,1.0,no_exact_label
+397,maryford queen tufted bed,0,1.0,Beds | Beds | Beds,1.0,1.0,0.0,,1.0,no_exact_label
+396,alyse 8 light,1,1.0,Chandeliers | Chandeliers | Chandeliers,1.0,1.0,1.0,1.0,1.0,ranking
+392,china clock,0,1.0,Wall Clocks | Wall Clocks | Wall Clocks,1.0,1.0,0.0,,1.0,no_exact_label
+461,luau string lights,4,1.0,Holiday Lighting | Holiday Lighting | Holiday Lighting,1.0,1.0,1.0,1.0,1.0,ranking
+486,54 in bench cushion,0,1.0,Furniture Cushions | Furniture Cushions | Furniture Cushions,1.0,1.0,0.0,,1.0,no_exact_label

@@ -1,0 +1,82 @@
+{
+  "LambdaMART, Exact = 3 (final)": {
+    "ndcg@10": 0.786,
+    "vs_final": {
+      "diff": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "LambdaMART, Exact = 2": {
+    "ndcg@10": 0.7917,
+    "vs_final": {
+      "diff": 0.0056,
+      "ci95": [
+        -0.0048,
+        0.0161
+      ]
+    }
+  },
+  "LambdaMART, Exact = 5": {
+    "ndcg@10": 0.786,
+    "vs_final": {
+      "diff": -0.0,
+      "ci95": [
+        -0.0075,
+        0.0071
+      ]
+    }
+  },
+  "LambdaMART, Exact = 10": {
+    "ndcg@10": 0.7768,
+    "vs_final": {
+      "diff": -0.0092,
+      "ci95": [
+        -0.0169,
+        -0.0022
+      ]
+    }
+  },
+  "LambdaMART, Exact = 30": {
+    "ndcg@10": 0.7753,
+    "vs_final": {
+      "diff": -0.0107,
+      "ci95": [
+        -0.0238,
+        0.0004
+      ]
+    }
+  },
+  "regressão (nota 0/1/2)": {
+    "ndcg@10": 0.777,
+    "vs_final": {
+      "diff": -0.009,
+      "ci95": [
+        -0.0267,
+        0.0107
+      ]
+    }
+  },
+  "classificação (é Exact?)": {
+    "ndcg@10": 0.7526,
+    "vs_final": {
+      "diff": -0.0335,
+      "ci95": [
+        -0.0595,
+        -0.0075
+      ]
+    }
+  },
+  "XE-NDCG": {
+    "ndcg@10": 0.784,
+    "vs_final": {
+      "diff": -0.002,
+      "ci95": [
+        -0.0129,
+        0.0088
+      ]
+    }
+  }
+}
